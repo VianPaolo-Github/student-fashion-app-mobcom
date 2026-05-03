@@ -1,0 +1,11 @@
+{
+  "name": "mongo-api-server",
+  "version": "1.0.0",
+  "main": "mongo-api-server.js",
+  "scripts": {
+    "start": "node mongo-api-server.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}
