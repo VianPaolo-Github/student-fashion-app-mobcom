@@ -34,7 +34,7 @@ function loadEnvFromFile() {
 
 loadEnvFromFile();
 
-const PORT = Number(process.env.API_PORT || 4000);
+const PORT = Number(process.env.API_PORT || 8080);
 const MONGO_URI = stripQuotes(process.env.MONGO_URI || "");
 const MONGO_URI_DIRECT = stripQuotes(process.env.MONGO_URI_DIRECT || "");
 const MONGO_DB_NAME = stripQuotes(
